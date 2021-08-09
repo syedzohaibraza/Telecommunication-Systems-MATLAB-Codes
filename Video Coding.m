@@ -1,29 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% University of Applied Sciences Kempten, 
-% Master of Electrical Engineering
-%
-% Telecommunication Systems
-% Exercise: Video Compression
-%
-% © Prof. Dr.-Ing. Martin Schönle 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% transform_domain_coding.m	
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% 19.03.2013, MS,
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Transform domain quantization with the possibility of applying different quantizatzion schemes
-% 
-% Computation of average bit rate and resulting signal to noise ratio
-% Representation of original, coded and difference image
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 clear
 
 % close all
@@ -166,11 +140,3 @@ title(['JPEG compressed ', num2str(av_bitrate) ',  '  num2str(snr)] )
 
 figure(3),imagesc(diff); colormap(gray)
 title(['Difference: Original - coded image'])
-
-
-
-
-
-
-
-
