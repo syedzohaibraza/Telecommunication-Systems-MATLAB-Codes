@@ -1,29 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% University of Applied Sciences Kempten, 
-% Master of Electrical Engineering
-%
-% Telecommunication Systems
-% Exercise: Video Compression
-%
-% © Prof. Dr.-Ing. Martin Schönle 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% jpeg_compression.m	
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% 05.04.2013, MS
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Reduction of bit rate per pixel due to quantization scheme used in JPEG standard
-% 
-% Computation of average bit rate and resulting signal to noise ratio
-% Representation of original, coded and difference  image
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 clear
 
 close all
@@ -147,11 +121,3 @@ title(['JPG compressed ', num2str(av_bitrate) ',  '  num2str(snr)] )
 
 figure(3),imagesc(diff); colormap(gray)
 title(['Difference: Original - coded image'])
-
-
-
-
-
-
-
-
